@@ -1,0 +1,29 @@
+// BuildContext
+// 1. 
+// - 'A handle to the location of a widget in the widget tree'
+// - widget tree에서 현재 widget의 위치를 알수 있는 정보
+
+// Widget build (BuildContext context){
+//  return Scaffold()
+// }
+// Scaffold Widget 을 반환하고 build 메소드의 argument로 BuildContext를 받는다
+
+// 2.
+// - 이 BuildContext는 stateless위젯이나 state 빌드 메서드에 의해서 리턴된 위젯의
+//   부모가 된다.
+
+// class MyPage extends StatelessWidget{
+//  @override
+//  Widget build(BuildContext context){
+//      return Scaffold()  
+//  }
+// }
+
+// Mypage 위젯의 build 메소드로 반환된 Scaffold는 Mypage context를 물려받게 되고
+// Scaffold Widget 의 context 를 알려면 build 매소드를 사용하여 위젯을 반환하면 
+// Scaffold의 context를 알수 있게 된다.
+
+// SnackBar
+// - Sacffold.of.
+// - 현재 주어진 context에서 위로 올라가면서 가장 가까운 Scaffold를 찾아서 반환하라
+/  - Someting.of

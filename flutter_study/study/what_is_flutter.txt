@@ -1,0 +1,8 @@
+// Fuchsia
+// Zircon(지르콘)이라는 마이크로 커널 기반
+
+// ○ Flutter
+// flutter는 프레임워크
+// Dart라는 프로그래밍 언어사용
+// 크로스 플랫폼(안드로이드,IOS) 애플리케이션 개발
+// Hummingbird : Flutter 웹 프로젝트
